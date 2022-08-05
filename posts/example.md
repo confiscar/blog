@@ -1,0 +1,24 @@
+---
+title: "Example1"
+# Really important that this is in exactly the format 
+# YYYY-MM-DD due to how we sort the dates
+date: "2021-01-01"
+---
+
+# This is an example post
+
+We will talk about shit here
+
+```javascript
+import react from 'React';
+
+const hello = () => {
+    hello.world();
+}
+
+const thisIsStupid = () {
+    console.log("hello");
+};
+
+export default hello;
+```
