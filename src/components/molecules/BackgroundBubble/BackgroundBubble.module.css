@@ -1,0 +1,7 @@
+.backgroundBubble  {
+    font-size: 0; /* This fixes a gap under image from next/image */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

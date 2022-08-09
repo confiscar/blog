@@ -4,7 +4,7 @@ import type { AppProps } from 'next/app';
 import Navbar from '../components/organisms/Navbar';
 import Footer from '../components/organisms/Footer';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <div>
       <Navbar />
@@ -12,6 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Footer />
     </div>
   );
-}
+};
 
 export default MyApp;

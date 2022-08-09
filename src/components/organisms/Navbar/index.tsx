@@ -1,20 +1,34 @@
+import { useRouter } from 'next/router';
+import styles from './Navbar.module.css';
 import NavbarItem from '../../molecules/NavbarItem';
 import NavbarLogo from '../../molecules/NavbarLogo';
 
 const Navbar = () => {
     const navMap: { [key: string]: string} = {
-        'Home': '/',
-        'Blog': '/blog',
-        'Recipes': '/recipes',
-        'About': '/about'
+        'blog': '/blog',
+        'recipes': '/recipes',
+        'about': '/about'
     };
+
+    const router = useRouter();
+
+    const isActiveLink = (path: string) => (
+        router.pathname === path
+    );
 
     return (
         <div>
             <NavbarLogo />
-            {Object.keys(navMap).map((item) => (
-                <NavbarItem key={item} item={item} link={navMap[item]} />
-            ))}
+            <div className={styles.navBarLinkContainer}>
+                {Object.keys(navMap).map((item) => (
+                    <NavbarItem 
+                        key={item}
+                        item={item}
+                        link={navMap[item]}
+                        active={isActiveLink(navMap[item])}
+                    />
+                ))}
+            </div>
         </div>
     );
 };

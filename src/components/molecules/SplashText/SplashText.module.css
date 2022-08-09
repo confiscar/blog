@@ -1,0 +1,19 @@
+.topPadding {
+    padding-top: 2rem 
+}
+
+.splashText {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.splashTextContainer {
+    width: 32rem; margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .splashTextContainer {
+        width: 60vw
+    }
+}

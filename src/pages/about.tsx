@@ -1,14 +1,20 @@
 import type { NextPage } from 'next';
+import BackgroundBubble from '../components/molecules/BackgroundBubble';
+import SplashText from '../components/molecules/SplashText';
 import styles from './styles/Index.module.css';
+
+const topText = 'Any opinions expressed on my page are mine alone.';
+const bottomText = `You can contact me at ${process.env.email}@[insert google email service].com`;
 
 const About: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <h1> About </h1>
-      <p> Here&apos;s a copy of my CV, and a link to my github (this page is on there).</p>
-      <p> I&apos;m currently working as a web engineer at Capital One. Important to note that any opinions on this site are mine alone.</p> 
-      <p> You can contact me through email at franciscoc224@[insert google email service].com</p>
-    </div>
+    <>
+      <div className={styles.container}>
+        <SplashText padding>{topText}</SplashText>
+        <SplashText>{bottomText}</SplashText>
+      </div>
+      <BackgroundBubble />
+    </>
   );
 };
 

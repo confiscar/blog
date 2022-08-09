@@ -1,0 +1,12 @@
+.footerLinkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.footerItem {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
