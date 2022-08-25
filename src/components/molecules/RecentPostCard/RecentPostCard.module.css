@@ -1,0 +1,12 @@
+.dateText{
+    font-size: 1.0rem;
+    color: var(--secondary-font);
+}
+
+.titleText{
+    font-size: 1.3rem;
+}
+
+.cardContent{
+    margin: 20px
+}

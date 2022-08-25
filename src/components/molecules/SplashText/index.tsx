@@ -7,16 +7,20 @@ declare type SplashTextProps = {
 }
 
 const SplashText = ({ children, padding=false }: SplashTextProps) => {
+    const texts = children.split(/\n/);
     return (
         <div className={styles.splashTextContainer}>
-            <p 
-                suppressHydrationWarning
-                className={cx(
-                    styles.splashText,
-                    padding ? styles.topPadding: '')
-                }>
-                {children} 
-            </p>
+            {texts.map((text, index) => (
+                <p 
+                    key={index}
+                    suppressHydrationWarning
+                    className={cx(
+                        styles.splashText,
+                        padding ? styles.topPadding: '')
+                    }>
+                    {text} 
+                </p>
+            ))}
         </div>
     );
 };

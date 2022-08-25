@@ -6,11 +6,11 @@ import Footer from '../components/organisms/Footer';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <div>
-      <Navbar />
-      <Component {...pageProps} />
-      <Footer />
-    </div>
+      <>
+        <Navbar />
+        <Component {...pageProps} />
+        <Footer />
+      </>
   );
 };
 
