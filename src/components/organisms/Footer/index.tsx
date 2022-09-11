@@ -1,21 +1,23 @@
 import cx from '../../../lib/classNames';
 import styles from './Footer.module.css';
 import Link from 'next/link';
+import ExternalLinkIcon from '../../../lib/icons/ExternalLinkIcon';
+import ExternalLink from '../../atoms/ExternalLink';
 
 const Footer = () => (
     <div className={styles.footerLinkContainer}>
-        <Link href={process.env.github || ''}>
-            <a className={
-                cx('clearLinkDecoration', styles.footerItem)}>
-                    Github
-            </a> 
-        </Link>
-        <Link href={process.env.linkedin || ''}>
-            <a className={
-                cx('clearLinkDecoration', styles.footerItem)}>
-                    LinkedIn
-            </a>
-        </Link>
+        <ExternalLink
+            href={process.env.github || ''}
+            className={styles.footerItem}
+        >
+           Github 
+        </ExternalLink>
+        <ExternalLink
+            href={process.env.linkedin || ''}
+            className={styles.footerItem}
+        >
+            LinkedIn
+        </ExternalLink>
     </div>
 );
 

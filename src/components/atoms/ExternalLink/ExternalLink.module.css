@@ -1,0 +1,10 @@
+.externalLinkIcon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+.externalLink {
+    display: inline-block;
+    padding-right: 4px
+}

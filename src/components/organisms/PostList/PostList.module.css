@@ -1,0 +1,26 @@
+.CardListContainer {
+    padding-top: 4.5rem;
+    font-size: 1.3rem;
+}
+
+.CardsContainer {
+    margin: auto;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1.2rem;
+    column-gap: 1.2rem;
+}
+
+@media (min-width: 50rem) {
+    .CardsContainer {
+        width: 40rem
+    }
+}
+
+.CardListHeader {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 2rem;
+}

@@ -1,5 +1,17 @@
 {
     "home": {
-        "intro": "Hi, I'm Fran. I'm a software engineer who likes building stuff. I'm into cooking, music production and video games.\n I also like writing."
+        "intro": "Hi, I'm Fran. I'm a software engineer who likes building stuff. I'm into cooking, music production and video games.\n I also like writing.",
+        "cardListHeading": "Recent",
+        "emptyPostList": "There is nothing here..."
+    },
+    "blog": {
+        "splashTexts": [
+            "Ramblings of my tech journey.",
+            "Pick a card, any card.",
+            "Tech is cool until you use Jira."
+        ]
+    },
+    "404": {
+        "warning": "Oops... seems to be a bad link."
     }
 }

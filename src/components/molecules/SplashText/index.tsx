@@ -6,7 +6,8 @@ declare type SplashTextProps = {
     padding?: boolean;
 }
 
-const SplashText = ({ children, padding=false }: SplashTextProps) => {
+const SplashText = ({ children, padding=true }: SplashTextProps) => {
+    const isFirstText = (index: number) => (index === 0);
     const texts = children.split(/\n/);
     return (
         <div className={styles.splashTextContainer}>
@@ -16,7 +17,8 @@ const SplashText = ({ children, padding=false }: SplashTextProps) => {
                     suppressHydrationWarning
                     className={cx(
                         styles.splashText,
-                        padding ? styles.topPadding: '')
+                        padding && isFirstText(index) ? styles.topPadding: '',
+                        !isFirstText(index) ? styles.seperationPadding: '')
                     }>
                     {text} 
                 </p>
