@@ -7,7 +7,7 @@ declare type RecipeCardProps = {
 }
 
 const defaultCardHeader = '/images/default-card-header.png';
-const cardHeight = 205;
+const cardHeight = 180;
 const cardWidth = 438;
 
 const RecipeCard = ({ item }: RecipeCardProps) => {
