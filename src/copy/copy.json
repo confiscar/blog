@@ -11,6 +11,10 @@
             "Tech is cool until you use Jira."
         ]
     },
+    "about": {
+        "splashText": "Any opinions expressed on my page are mine alone. You can contact me at frncaeiro@(gmail).com",
+        "cardListHeading": "Personal Projects"
+    },
     "404": {
         "warning": "Oops... seems to be a bad link."
     }

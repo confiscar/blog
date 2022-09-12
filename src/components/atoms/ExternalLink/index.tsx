@@ -5,11 +5,11 @@ import cx from '../../../lib/classNames';
 
 declare type ExternalLinkProps = {
     href: string,
-    className: string,
+    className?: string,
     children: string,
 };
 
-const ExternalLink = ({ href, className, children }: ExternalLinkProps) => (
+const ExternalLink = ({ href, className='', children }: ExternalLinkProps) => (
     <Link href={href}>
         <a className={
             cx('clearLinkDecoration', className)}>

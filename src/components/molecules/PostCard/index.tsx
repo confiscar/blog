@@ -7,17 +7,12 @@ declare type PostCardProps = {
 }
 
 const PostCard = ({ item }: PostCardProps) => {
-    const shortTitleLength = config.postTitleCardMaxChar;
-    const shortTitle = item.title.length > shortTitleLength 
-        ? item.title.slice(0, shortTitleLength - 3).concat('...')
-        : item.title;
-
     return (
         <a className="clearLinkDecoration" href={item.link}>
             <Card>
                 <div className={style.cardContent}>
                     <p className={style.dateText}>{item.date}</p>
-                    <p className={style.titleText}>{shortTitle}</p>
+                    <p className={style.titleText}>{item.title}</p>
                 </div>
             </Card>
         </a>
