@@ -1,0 +1,18 @@
+.dateText{
+    padding-top: 0.2rem;
+    font-size: 1.0rem;
+    color: var(--secondary-font);
+}
+
+.titleText{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.cardContent{
+    margin: 20px
+}
+
+.cardHeaderImage {
+    border-radius: 20px 20px 0px 0px;
+}

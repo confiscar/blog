@@ -1,6 +1,7 @@
 ---
 title: "Carbonara"
 date: "2020-01-01"
+cardImage: "/images/recipes/carbonara/carbonara-card-header.png"
 ---
 # Ingredients 
 * 2 eggs

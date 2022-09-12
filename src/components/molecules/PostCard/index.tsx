@@ -1,5 +1,4 @@
 import Card from '../../atoms/Card';
-import config from '../../../../blog.config';
 import style from './PostCard.module.css';
 
 declare type PostCardProps = {

@@ -13,7 +13,7 @@ const Card = ({children, w=0, h=0}: CardProps) => {
             className={style.cardContainer}
             style={{
                 ...Boolean(w) && {width: w},
-                ...Boolean(h) && {height: h}
+                ...Boolean(h) && {minHeight: h}
             }}
         >
             <div className={style.cardContent}>
