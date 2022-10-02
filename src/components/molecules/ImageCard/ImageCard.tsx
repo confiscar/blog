@@ -14,7 +14,11 @@ const RecipeCard = ({ item }: RecipeCardProps) => {
     return (
         <a className="clearLinkDecoration" href={item.link}>
             <Card w={cardWidth} h={cardHeight}>
-                <Image className={style.cardHeaderImage} width={cardWidth} height={cardHeight/1.6} src={item.cardImage || defaultCardHeader} alt="" />
+                <Image className={style.cardHeaderImage}
+                    width={cardWidth}
+                    height={cardHeight/1.6}
+                    src={item.cardImage || defaultCardHeader}
+                    alt="" />
                 <div className={style.cardContent}>
                     <p className={style.titleText}>{item.title}</p>
                 </div>
