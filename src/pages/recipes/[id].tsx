@@ -1,6 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllRecipeIds, getRecipeData } from '../../lib/dynamicPosts';
 import  Date from '../../components/atoms/Date';
+import styles from './recipes.module.css';
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     if (!params) {
@@ -28,13 +29,15 @@ export const getStaticPaths: GetStaticPaths = async () => {
 const Recipe = ({ recipeData }: Record<string, any>) => {
     return (
         <>
-            <h1>{recipeData.title}</h1>
+            <h1 className={styles.recipeTitle}>{recipeData.title}</h1>
             <br />
-            <h1>{recipeData.id}</h1>
+            <div className={styles.recipeDate}>
+                <Date dateString={recipeData.date} />
+            </div>
             <br />
-            <Date dateString={recipeData.date} />
-            <br />
-            <div dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
+            <div className={styles.recipeContainer}>
+                <div className={styles.recipe} dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
+            </div>
         </>
     );
 };
