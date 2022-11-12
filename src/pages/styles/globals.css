@@ -22,7 +22,9 @@ html {
     --primary-background: #F9F4F1;
     --secondary-font: #7A7A7A;
     --secondary-background: #FFFFFF;
+    --link-font: #57A6FF;
     --card-stroke: #C5C5C5;
+    --code-background: #0E1117;
     background-color: var(--primary-background);
     font-family: Inter, Helvetica, sans-serif ;
 }

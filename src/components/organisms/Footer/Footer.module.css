@@ -1,8 +1,10 @@
 .footerLinkContainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 2.5rem;
+    row-gap: 1rem;
     padding-top: 4.5rem;
     padding-bottom: 1.2rem;
 }

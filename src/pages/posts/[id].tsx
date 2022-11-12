@@ -1,6 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllPostIds, getPostData } from '../../lib/dynamicPosts';
 import  Date from '../../components/atoms/Date';
+import styles from './posts.module.css';
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     if (!params) {
@@ -28,13 +29,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 const Post = ({ postData }: Record<string, any>) => {
     return (
         <>
-            <h1>{postData.title}</h1>
+            <h1 className={styles.postTitle}>{postData.title}</h1>
+            {postData.subtitle && <h2 className={styles.postSubtitle}>{postData.subtitle}</h2>}
             <br />
-            <h1>{postData.id}</h1>
+            <div className={styles.postDate}>
+                <Date dateString={postData.date} />
+            </div>
             <br />
-            <Date dateString={postData.date} />
-            <br />
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            <div className={styles.postContainer}>
+                <div className={styles.post} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            </div>
         </>
     );
 };

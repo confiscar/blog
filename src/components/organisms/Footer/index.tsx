@@ -18,6 +18,12 @@ const Footer = () => (
         >
             LinkedIn
         </ExternalLink>
+        <ExternalLink
+            href="https://nextjs.org/"
+            className={styles.footerItem}
+        >
+           {'Built with Next.js ❤️'}
+        </ExternalLink>
     </div>
 );
 

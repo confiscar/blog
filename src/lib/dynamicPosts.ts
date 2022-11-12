@@ -7,6 +7,7 @@ import remarkRehype from 'remark-rehype';
 import rehypeSanitize, { defaultSchema } from 'rehype-sanitize';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeStringify from 'rehype-stringify';
+import remarkBreaks from 'remark-breaks';
 import { allowedHighlightedClasses } from './constants';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
@@ -20,6 +21,7 @@ const getDataFunction = (directory: string) => (
 
         const processedContent = await unified()
             .use(remarkParse)
+            .use(remarkBreaks)
             .use(remarkRehype)
             .use(rehypeSanitize, {
                 ...defaultSchema,
