@@ -5,7 +5,6 @@ subtitle: "And what I would do differently"
 # YYYY-MM-DD due to how we sort the dates
 date: "2022-11-13"
 ---
-
 > **TL;DR** *Meta-frameworks are good for quickly bringing up an idea, at the cost of delegating some design decisions. Svelte could have been a way to achieve faster speeds, but I don't really regret it. And using (mostly) vanilla CSS can become a mess quickly if not managed well, calls for using some more high-level libraries like tail-wind to simplify this process.*
 
 Throughout this year it was my mission to create a blog, as a challenge to compile all the knowledge I gained doing web development, as well as to create a place to express myself. 

@@ -3,7 +3,6 @@ import BackgroundBubble from '../components/molecules/BackgroundBubble';
 import SplashText from '../components/molecules/SplashText';
 import PostList from '../components/organisms/PostList';
 import Header from '../components/atoms/Header';
-import formatDate from '../lib/formatDate';
 import copy from '../copy/copy.json';
 import styles from './styles/Index.module.css';
 import ExternalLink from '../components/atoms/ExternalLink';
@@ -14,7 +13,7 @@ const About: NextPage = () => {
     [
       {
         title: 'Just this blog for now :^)',
-        link: 'https://www.confiscar.github.io'  
+        link: 'https://confiscar.github.io'  
       },
     ]
   );

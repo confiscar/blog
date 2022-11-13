@@ -85,7 +85,7 @@
 }
 
 .post li {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .post img {
@@ -101,9 +101,19 @@
     background-color: var(--code-background);
     border-radius: 22px;
     padding: 1.5rem;
+    filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.3));
+    line-height: 1.2rem;
 } 
 
 .post pre {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+.post code {
+    background-color: var(--code-background);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+    color: var(--primary-highlight);
 }
