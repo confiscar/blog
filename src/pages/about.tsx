@@ -13,13 +13,9 @@ const About: NextPage = () => {
   const getProjectsList = () => (
     [
       {
-        title: 'DevBlog',
-        link: 'https://www.google.com'  
+        title: 'Just this blog for now :^)',
+        link: 'https://www.confiscar.github.io'  
       },
-      {
-        title: 'Library',
-        link: 'https://www.google.com'  
-      }
     ]
   );
 
@@ -31,13 +27,7 @@ const About: NextPage = () => {
       <PostList CardComponent={ImageCard} title={copy.about.cardListHeading} itemList={getProjectsList()} nCol={1} />
       <Header>Curated Articles</Header>
       <div style={{textAlign: 'center', fontSize: '1.2rem', paddingBottom: '0.5rem'}}>
-        <ExternalLink href="https://www.google.com">Don&apos;t eat frogs.</ExternalLink>
-      </div>
-      <div style={{textAlign: 'center', fontSize: '1.2rem', paddingBottom: '0.5rem'}}>
-      <ExternalLink href="https://www.google.com">Software engineering in a nutshell</ExternalLink>
-      </div>
-      <div style={{textAlign: 'center', fontSize: '1.2rem', paddingBottom: '0.5rem'}}>
-        <ExternalLink href="https://www.google.com">How are microcontrollers made?</ExternalLink>
+        <ExternalLink href="https://experimentalhistory.substack.com/p/excuse-me-but-why-are-you-eating">Excuse me but why are you eating so many frogs - Adam Mastroianni</ExternalLink>
       </div>
       <BackgroundBubble />
     </>
