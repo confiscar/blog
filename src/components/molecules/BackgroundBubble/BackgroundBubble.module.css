@@ -5,3 +5,9 @@
     right: 0;
     z-index: -1;
 }
+
+@media (max-width: 50rem) {
+    .backgroundBubble {
+        width: 40%;
+    }
+}

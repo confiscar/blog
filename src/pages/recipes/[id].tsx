@@ -2,6 +2,7 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 import { getAllRecipeIds, getRecipeData } from '../../lib/dynamicPosts';
 import  Date from '../../components/atoms/Date';
 import styles from './recipes.module.css';
+import BackgroundBubble from '../../components/molecules/BackgroundBubble';
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     if (!params) {
@@ -38,6 +39,7 @@ const Recipe = ({ recipeData }: Record<string, any>) => {
             <div className={styles.recipeContainer}>
                 <div className={styles.recipe} dangerouslySetInnerHTML={{ __html: recipeData.contentHtml }} />
             </div>
+            <BackgroundBubble />
         </>
     );
 };

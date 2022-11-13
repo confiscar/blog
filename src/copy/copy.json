@@ -17,5 +17,16 @@
     },
     "404": {
         "warning": "Oops... seems to be a bad link."
+    },
+    "footer": {
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "nextjs": "Built with Next.js ❤️"
+    },
+    "links": {
+        "email": "frncaeiro",
+        "linkedin": "https://www.linkedin.com/in/caeiro/",
+        "github": "https://github.com/confiscar",
+        "nextjs": "https://nextjs.org"
     }
 }

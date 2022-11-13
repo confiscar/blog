@@ -1,28 +1,26 @@
-import cx from '../../../lib/classNames';
 import styles from './Footer.module.css';
-import Link from 'next/link';
-import ExternalLinkIcon from '../../../lib/icons/ExternalLinkIcon';
 import ExternalLink from '../../atoms/ExternalLink';
+import copy from '../../../copy/copy.json';
 
 const Footer = () => (
     <div className={styles.footerLinkContainer}>
         <ExternalLink
-            href={process.env.github || ''}
+            href={copy.links.github}
             className={styles.footerItem}
         >
-           Github 
+            {copy.footer.github} 
         </ExternalLink>
         <ExternalLink
-            href={process.env.linkedin || ''}
+            href={copy.links.linkedin}
             className={styles.footerItem}
         >
-            LinkedIn
+            {copy.footer.linkedin}
         </ExternalLink>
         <ExternalLink
-            href="https://nextjs.org/"
+            href={copy.links.nextjs}
             className={styles.footerItem}
         >
-           {'Built with Next.js ❤️'}
+           {copy.footer.nextjs}
         </ExternalLink>
     </div>
 );

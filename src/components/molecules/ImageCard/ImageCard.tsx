@@ -6,7 +6,7 @@ declare type RecipeCardProps = {
     item: { title: string, link: string, cardImage?: string }
 }
 
-const defaultCardHeader = '/images/default-card-header.png';
+const defaultCardHeader = '/images/default-card-header.jpeg';
 const cardHeight = 180;
 const cardWidth = 438;
 
