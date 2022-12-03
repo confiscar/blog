@@ -76,6 +76,16 @@
     padding-top: 0.5rem;
 }
 
+.recipe ol li::before {
+    content: counter(step-counter);
+    color: black;
+    font-weight: bold;
+}
+
+.recipe ol li{
+    counter-increment: step-counter;
+}
+
 .recipe li {
     padding-bottom: 0.5rem;
 }

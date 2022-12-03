@@ -14,12 +14,12 @@ Per person:
 * [Bronze-cut (Coarse) Pasta](https://www.epicurious.com/ingredients/what-is-bronze-cut-pasta-and-is-it-worth-it-article)
 
 # Steps
-* Cook guanciale/pancetta till all fat is released
-* Dispose of half of fat and let pan cool
-* Put water to boil - salt water generously
-* Grate parmesan into bowl and add egg, salt and pepper
-* Throw pasta into water
-* Reserve cup of pasta water
-* Quickly drain and throw pasta into pan with pancetta
-* Whilst stirring the pasta, throw egg-parmesan mixture into pan
-* Stir till emulsified - add pasta water as needed
+1. Cook guanciale/pancetta till all fat is released
+2. Dispose of half of fat and let pan cool
+3. Put water to boil - salt water generously
+4. Grate parmesan into bowl and add egg, salt and pepper
+5. Throw pasta into water
+6. Reserve cup of pasta water
+7. Quickly drain and throw pasta into pan with pancetta
+8. Whilst stirring the pasta, throw egg-parmesan mixture into pan
+9. Stir till emulsified - add pasta water as needed
