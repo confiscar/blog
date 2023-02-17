@@ -11,8 +11,7 @@ const cardWidth = 438;
 const imageHeight = cardHeight / 1.6;
 
 const NoImageHeader = () => (
-    <div style={{width: cardWidth, height: imageHeight}} className={style.cardHeaderNoImage}>
-    </div>
+    <div style={{width: cardWidth, height: imageHeight}} className={style.cardHeaderNoImage} />
 );
 
 const ImageCard = ({ item }: ImageCardProps) => {
