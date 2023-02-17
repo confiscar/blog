@@ -2,23 +2,31 @@ import Image from 'next/image';
 import Card from '../../atoms/Card';
 import style from './ImageCard.module.css';
 
-declare type RecipeCardProps = {
+declare type ImageCardProps = {
     item: { title: string, link: string, cardImage?: string }
 }
 
-const defaultCardHeader = '/images/default-card-header.jpeg';
 const cardHeight = 180;
 const cardWidth = 438;
+const imageHeight = cardHeight / 1.6;
 
-const RecipeCard = ({ item }: RecipeCardProps) => {
+const NoImageHeader = () => (
+    <div style={{width: cardWidth, height: imageHeight}} className={style.cardHeaderNoImage}>
+    </div>
+);
+
+const ImageCard = ({ item }: ImageCardProps) => {
     return (
         <a className="clearLinkDecoration" href={item.link}>
             <Card w={cardWidth} h={cardHeight}>
-                <Image className={style.cardHeaderImage}
-                    width={cardWidth}
-                    height={cardHeight/1.6}
-                    src={item.cardImage || defaultCardHeader}
-                    alt="" />
+                {item.cardImage ? 
+                    <Image className={style.cardHeaderImage}
+                        width={cardWidth}
+                        height={imageHeight}
+                        src={item.cardImage}
+                        alt="" />
+                    : <NoImageHeader/>
+                }
                 <div className={style.cardContent}>
                     <p className={style.titleText}>{item.title}</p>
                 </div>
@@ -27,4 +35,4 @@ const RecipeCard = ({ item }: RecipeCardProps) => {
     );
 };
 
-export default RecipeCard;
+export default ImageCard;
