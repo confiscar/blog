@@ -20,4 +20,5 @@
 .cardHeaderNoImage {
     border-radius: 20px 20px 0px 0px;
     background: linear-gradient(90deg, rgba(255,144,108,1) 0%, rgba(255,175,149,1) 50%, rgba(255,125,83,1) 100%);;
+    max-width: 80vw;
 }
