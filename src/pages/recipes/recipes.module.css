@@ -80,6 +80,7 @@
     content: counter(step-counter);
     color: black;
     font-weight: bold;
+    padding-right: 0.5rem;
 }
 
 .recipe ol li{
