@@ -1,0 +1,15 @@
+.LinkContainer{
+   text-align: center; 
+   font-size: 1.2rem;
+   padding-bottom: 0.5rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
+}
+
+.ComponentSeperation {
+    padding-top: 4.5rem;
+}
+
+.LinkRowSeperation{
+    padding-top: 1.2rem;
+}

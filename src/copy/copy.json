@@ -12,8 +12,10 @@
         ]
     },
     "about": {
-        "splashText": "Any opinions expressed on my page are mine alone. Contact me: frncaeiro @ gmail",
-        "cardListHeading": "Personal Projects"
+        "splashText": "Contact me @ frncaeiro[at]gmail.com",
+        "cardListHeading": "Personal Projects",
+        "curatedArticlesHeading": "Curated Articles",
+        "emptyCuratedArticles": "There is nothing here..."
     },
     "404": {
         "warning": "Oops... seems to be a bad link."
