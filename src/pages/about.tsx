@@ -25,7 +25,7 @@ const About: NextPage = () => {
       </div>
       <PostList CardComponent={ImageCard} title={copy.about.cardListHeading} itemList={getProjectsList()} nCol={1} />
       <Header>Curated Articles</Header>
-      <div style={{textAlign: 'center', fontSize: '1.2rem', paddingBottom: '0.5rem'}}>
+      <div style={{textAlign: 'center', fontSize: '1.2rem', paddingBottom: '0.5rem', marginLeft: '3rem', marginRight: '3rem'}}>
         <ExternalLink href="https://experimentalhistory.substack.com/p/excuse-me-but-why-are-you-eating">Excuse me but why are you eating so many frogs - Adam Mastroianni</ExternalLink>
       </div>
       <BackgroundBubble />

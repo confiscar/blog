@@ -1,3 +1,8 @@
 .container {
   padding: 0 2rem;
 }
+
+.externalLink { 
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
