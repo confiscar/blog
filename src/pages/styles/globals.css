@@ -3,17 +3,20 @@
 @font-face {
     font-family: "Inter";
     src: url("../../../public/fonts/Inter-Regular.ttf");
+    font-display: swap
 }
 
 @font-face {
     font-family: "Inter";
     src: url("../../../public/fonts/Inter-Medium.ttf");
+    font-display: swap
 }
 
 @font-face {
     font-family: "Inter";
     src: url("../../../public/fonts/Inter-Bold.ttf");
     font-weight: bold;
+    font-display: swap
 }
 
 html {
