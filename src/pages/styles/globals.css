@@ -25,6 +25,7 @@ html {
     --link-font: #57A6FF;
     --card-stroke: #C5C5C5;
     --code-background: #0E1117;
+    --line-height: 2rem;
     background-color: var(--primary-background);
     font-family: Inter, Helvetica, sans-serif ;
 }
