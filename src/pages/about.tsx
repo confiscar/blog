@@ -12,7 +12,7 @@ const About: NextPage = () => {
     [
       {
         title: 'Just this blog for now :^)',
-        link: 'https://confiscar.github.io'  
+        link: 'https://fcaeiro.com'  
       },
     ]
   );
@@ -22,10 +22,6 @@ const About: NextPage = () => {
       {
         title: 'Excuse me but why are you eating so many frogs - Adam Mastroianni',
         link: 'https://experimentalhistory.substack.com/p/excuse-me-but-why-are-you-eating'  
-      },
-      {
-        title: 'Another one',
-        link: 'another one'
       }
     ]
   );

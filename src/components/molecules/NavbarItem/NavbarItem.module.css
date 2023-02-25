@@ -5,5 +5,5 @@
 }
 
 .navbarItemActive {
-    color: var(--primary-highlight);
+    color: var(--light-primary-highlight);
 }

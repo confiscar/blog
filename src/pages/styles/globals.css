@@ -17,20 +17,28 @@
 }
 
 html {
-    --primary-font: #000000;
-    --primary-highlight: #FF906C;
-    --primary-background: #F9F4F1;
-    --secondary-font: #7A7A7A;
-    --secondary-background: #FFFFFF;
-    --link-font: #57A6FF;
-    --card-stroke: #C5C5C5;
-    --code-background: #0E1117;
+    --light-primary-font: #000000;
+    --light-primary-highlight: #FF906C;
+    --light-primary-background: #F9F4F1;
+    --light-secondary-font: #7A7A7A;
+    --light-secondary-background: #FFFFFF;
+    --light-link-font: #57A6FF;
+    --light-card-stroke: #C5C5C5;
+    --light-code-background: #0E1117;
+    --dark-primary-font: #F9F4F1;
+    --dark-primary-highlight: #FF906C;
+    --dark-primary-background: #464646;
+    --dark-secondary-font: #B0B0B0;
+    --dark-secondary-background: #464646;
+    --dark-link-font: #57A6FF;
+    --dark-card-stroke: #C5C5C5;
+    --dark-code-background: #F9F4F1;
     --line-height: 2rem;
-    background-color: var(--primary-background);
+    background-color: var(--light-primary-background);
     font-family: Inter, Helvetica, sans-serif ;
 }
 
 .clearLinkDecoration {
     text-decoration: none; 
-    color: var(--primary-font);
+    color: var(--light-primary-font);
 }
