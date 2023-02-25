@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/dynamicPosts';
 import  Date from '../../components/atoms/Date';
 import styles from './posts.module.css';
 import BackgroundBubble from '../../components/molecules/BackgroundBubble';
+import Comments from '../../components/organisms/Comments';
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     if (!params) {
@@ -40,6 +41,7 @@ const Post = ({ postData }: Record<string, any>) => {
             <div className={styles.postContainer}>
                 <div className={styles.post} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </div>
+            <Comments />
             <BackgroundBubble />
         </>
     );
