@@ -16,3 +16,10 @@
     left: -53px;
     z-index: -1;
 }
+
+.navBarLogoUnderline {
+    width: 180px;
+    height: 2px;
+    margin: auto;
+    border-radius: 3px;
+}

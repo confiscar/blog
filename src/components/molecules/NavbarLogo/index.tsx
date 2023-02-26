@@ -3,18 +3,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import circle from '../../../../public/franLogoCircle.svg';
-import activeLine from '../../../../public/navbarLogoLineOrange.svg';
-import unactiveLine from '../../../../public/navbarLogoLineBlack.svg';
-
 
 const NavbarLogo = () => {
     const logoText = 'fran\'s blog';
     const router = useRouter();
-    const logoLineStyle = router.pathname === '/' ? activeLine : unactiveLine;
+    const lineColor = router.pathname === '/' ? '#FF906C' : '#000000';
 
     return (
         <div className={styles.navBarLogoContainer}>
-            <Link href="/">
+            <Link href="/" className="clearLinkDecoration">
                 <div className="noPaddingDiv"> 
                     <div className={styles.navBarLogoCircle}>
                         <Image
@@ -24,15 +21,10 @@ const NavbarLogo = () => {
                             alt="franLogoCircle"
                         ></Image>
                     </div>
-                    <a className={styles.navBarLogoText}>{logoText}</a>
+                    <p className={styles.navBarLogoText}>{logoText}</p>
                 </div>
             </Link>
-            <Image 
-                src={logoLineStyle}
-                width="0"
-                height="2"
-                alt="navbarLogoLine" 
-            ></Image>
+            <div className={styles.navBarLogoUnderline} style={{background: lineColor}}></div>
             <br/>
         </div>
     );

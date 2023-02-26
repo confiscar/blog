@@ -12,8 +12,8 @@ const Card = ({children, w=0, h=0}: CardProps) => {
         <div 
             className={style.cardContainer}
             style={{
-                ...Boolean(w) && {width: w},
-                ...Boolean(h) && {minHeight: h}
+                ...(Boolean(w) && {width: w}),
+                ...(Boolean(h) && {minHeight: h})
             }}
         >
             <div className={style.cardContent}>

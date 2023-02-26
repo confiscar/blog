@@ -10,12 +10,12 @@ declare type ExternalLinkProps = {
 };
 
 const ExternalLink = ({ href, className='', children }: ExternalLinkProps) => (
-    <Link href={href}>
-        <a className={
-            cx('clearLinkDecoration', className)}>
-            <p className={styles.externalLink}>{children}</p>
-            <ExternalLinkIcon className={styles.externalLinkIcon}/>
-        </a>        
+    <Link
+        href={href}
+        className={cx('clearLinkDecoration', className)}
+    >
+        <p className={styles.externalLink}>{children}</p>
+        <ExternalLinkIcon className={styles.externalLinkIcon}/>
     </Link>
 );
 

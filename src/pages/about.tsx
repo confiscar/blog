@@ -5,7 +5,7 @@ import PostList from '../components/organisms/PostList';
 import LinkList from '../components/organisms/LinkList';
 import copy from '../copy/copy.json';
 import styles from './styles/Index.module.css';
-import ImageCard from '../components/molecules/ImageCard/ImageCard';
+import ImageCard from '../components/molecules/ImageCard';
 
 const About: NextPage = () => {
   const getProjectsList = () => (

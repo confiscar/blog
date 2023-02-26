@@ -23,7 +23,8 @@ const ImageCard = ({ item }: ImageCardProps) => {
                         width={cardWidth}
                         height={imageHeight}
                         src={item.cardImage}
-                        alt="" />
+                        alt=""
+                    />
                     : <NoImageHeader/>
                 }
                 <div className={style.cardContent}>

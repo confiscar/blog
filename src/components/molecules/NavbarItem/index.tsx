@@ -9,13 +9,11 @@ declare type NavbarItemProps = {
 };
 
 const NavbarItem = ({item, link, active=false}: NavbarItemProps) => (
-    <Link href={link}>
-        <a className={
-            cx('clearLinkDecoration',
-                styles.navbarItem,
-                active ? styles.navbarItemActive: '')}>
-                {item}
-        </a>
+    <Link
+        href={link}
+        className={cx('clearLinkDecoration', styles.navbarItem, active ? styles.navbarItemActive: '')}
+    >
+        {item}
     </Link>
 );
 

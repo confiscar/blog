@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import BackgroundBubble from '../components/molecules/BackgroundBubble';
-import ImageCard from '../components/molecules/ImageCard/ImageCard';
+import ImageCard from '../components/molecules/ImageCard';
 import PostList from '../components/organisms/PostList';
 import { getSortedRecipesData } from '../lib/dynamicPosts';
 import styles from './styles/Index.module.css';
