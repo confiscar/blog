@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import SplashText from '../components/molecules/SplashText';
 import BrokenLinkIcon from '../lib/icons/BrokenLinkIcon';
 import copy from '../copy/copy.json';
