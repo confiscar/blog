@@ -1,4 +1,6 @@
 .backgroundBubble  {
+    width: 470px;
+    height: 470px;
     font-size: 0; /* This fixes a gap under image from next/image */
     position: fixed;
     bottom: 0;
@@ -9,5 +11,6 @@
 @media (max-width: 50rem) {
     .backgroundBubble {
         width: 40%;
+        height: 40vw;
     }
 }

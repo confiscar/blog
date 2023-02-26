@@ -5,7 +5,7 @@ import bubble from '../../../../public/quarterFranLogo.svg';
 const BackgroundBubble = () => {
     return (
         <div className={styles.backgroundBubble}>
-            <Image width="470" height="470" src={bubble} alt="bubble-fran-logo" /> 
+            <Image fill src={bubble} alt="bubble-fran-logo" /> 
         </div> 
     );
 };
