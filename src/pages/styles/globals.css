@@ -36,7 +36,14 @@ html {
     --dark-link-font: #57A6FF;
     --dark-card-stroke: #C5C5C5;
     --dark-code-background: #F9F4F1;
-    --line-height: 2rem;
+    --line-height: 1.8rem;
+    --list-height: 1.5rem;
+    --content-font-size: 1rem;
+    --spacing-unit: 1.5rem;
+    --heading-one: 1.5rem;
+    --heading-two: 1.3rem;
+    --heading-three: 1.1rem;
+
     background-color: var(--light-primary-background);
     font-family: Inter, Helvetica, sans-serif ;
 }
