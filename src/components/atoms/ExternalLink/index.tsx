@@ -14,8 +14,9 @@ const ExternalLink = ({ href, className='', children }: ExternalLinkProps) => (
         href={href}
         className={cx('clearLinkDecoration', className)}
     >
-        <p className={styles.externalLink}>{children}</p>
-        <ExternalLinkIcon className={styles.externalLinkIcon}/>
+        <p className={styles.externalLink}>
+            {children}  <ExternalLinkIcon className={styles.externalLinkIcon}/>
+        </p>
     </Link>
 );
 

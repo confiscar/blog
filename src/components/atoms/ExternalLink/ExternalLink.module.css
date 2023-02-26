@@ -1,10 +1,11 @@
 .externalLinkIcon {
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 0.8rem;
+    height: 0.8rem;
 }
 
 .externalLink {
     display: inline-block;
     padding-right: 4px;
+    line-height: var(--line-height);
 }
