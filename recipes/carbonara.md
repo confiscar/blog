@@ -24,5 +24,5 @@ Per person:
 7. **Once the pasta is ready, reserve a cup of pasta water, and drain.**
 8. **As quick as possible throw pasta into pan with guanciale and pour sauce over it.** We are aiming to lose as little heat as possible.
 9. **Keep on mixing till thick sauce forms.** Important to not stop mixing or sauce could curdle. 
-10. **If thick sauce never forms, heat pan on low and keep mixing** (make sure to get the bottom bits!) until think sauce forms.
+10. **If thick sauce never forms, heat pan on low and keep mixing** (make sure to get the bottom bits!) until thick sauce forms.
 11. **Serve with more pecorino on top and freshly ground pepper.**
