@@ -23,3 +23,11 @@
     margin: auto;
     border-radius: 3px;
 }
+
+.active { 
+    background: var(--light-primary-highlight);
+}
+
+.inactive { 
+   background: black;
+}
