@@ -1,12 +1,15 @@
 import 'highlight.js/styles/github-dark.css';
 import './styles/globals.css';
 import type { AppProps } from 'next/app';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Navbar from '../components/organisms/Navbar';
 import Footer from '../components/organisms/Footer';
 import copy from '../copy/copy.json';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
+  const { asPath } = useRouter();
+
   return (
       <>
         <Head>
@@ -32,7 +35,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
           <title>{copy.pageTitle}</title>
         </Head>
-        <Navbar />
+        { asPath !== '/resume' && <Navbar /> }
         <Component {...pageProps} />
         <Footer />
       </>

@@ -1,5 +1,5 @@
 {
-    "pageTitle": "Fran's Blog",
+    "pageTitle": "fran's blog",
     "home": {
         "intro": "Hi, I'm Fran. I'm a software engineer who likes building stuff. I'm into cooking, music production and video games.\n I also like writing.",
         "cardListHeading": "Recent",
@@ -18,6 +18,29 @@
         "curatedArticlesHeading": "Curated Articles",
         "emptyCuratedArticles": "There is nothing here..."
     },
+    "resume": {
+        "pageTitle": "fran's resume",
+        "splashText": "Hi, I'm Fran 👋. I'm a software engineer interested in both front and back end development.\nI'm passionate about building scalable and maintainable software.",
+        "contactHeading": "Contact Me",
+        "experienceHeading": "Experience",
+        "experience": [
+            {
+                "jobTitle": "Capital One, iOS Engineer I",
+                "date": "November 2022 - Present",
+                "descriptions": "Working on Capital One iOS app. Swift UI & UI Kit.\nAlso worked with back-end orchestration level changes. JS and Node.js based stack.\nLots of breaking down business intent into high-level mobile changes."
+            },
+            {
+                "jobTitle": "Capital One, Web Engineer I",
+                "date": "September 2021 - November 2022",
+                "descriptions": "Working on internal web app tool, powered with Typescript, React, Express, GraphQL and Node.js.\nHeavily involved with championing our Cypress testing.\nAlso championed and became a point of contact for some legacy code refactoring/reusing involving Finesse.\nGood experience here with dealing with AWS and their Lambda serverless computing."
+            },
+            {
+                "jobTitle": "Capital One, Backend Engineer I",
+                "date": "September 2021 - November 2022",
+                "descriptions": "Was an internship experience.\nDesigned Java-based REST API service.\nGot the service up and running from scratch, using AWS Lambda and Jersey.\nExperience with Cucumber testing."
+            }
+        ]
+    },
     "404": {
         "warning": "Oops... seems to be a bad link."
     },
@@ -30,6 +53,7 @@
         "email": "frncaeiro",
         "linkedin": "https://www.linkedin.com/in/caeiro/",
         "github": "https://github.com/confiscar",
-        "nextjs": "https://nextjs.org"
+        "nextjs": "https://nextjs.org",
+        "emailLink": "mailto:frncaeiro@gmail.com"
     }
 }

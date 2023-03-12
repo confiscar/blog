@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import styles from './Navbar.module.css';
 import NavbarItem from '../../molecules/NavbarItem';
 import NavbarLogo from '../../molecules/NavbarLogo';
+import copy from '../../../copy/copy.json';
 
 const Navbar = () => {
     const navMap: { [key: string]: string} = {
@@ -18,7 +19,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <NavbarLogo />
+            <NavbarLogo title={copy.pageTitle} />
             <div className={styles.navBarLinkContainer}>
                 {Object.keys(navMap).map((item) => (
                     <NavbarItem 

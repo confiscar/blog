@@ -17,6 +17,13 @@
     z-index: -1;
 }
 
+.navBarLogoCircleResume {
+    position: relative;
+    top: 31px;
+    left: -71px;
+    z-index: -1;
+}
+
 .navBarLogoUnderline {
     width: 180px;
     height: 2px;

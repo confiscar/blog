@@ -1,0 +1,23 @@
+.profilePicture {
+    border-radius: 100%;
+}
+
+.profileContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   width: 70vw;
+   padding-top: 1rem
+}
+
+.splashText {
+    width: 20rem;
+}
+
+@media (max-width: 40rem) {
+    .profileContainer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+.blueLink {
+    color: var(--light-link-font);
+}
+
+.blueLink svg{
+    fill: var(--light-link-font);
+}
+
+.contactBody {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.2
+}
