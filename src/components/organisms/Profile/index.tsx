@@ -6,13 +6,6 @@ import styles from './Profile.module.css';
 
 const Profile = () => (
     <div className={cx(styles.profileContainer, 'centered')}>
-      <Image
-        className={styles.profilePicture}
-        src="/profile_picture.jpeg"
-        alt="profile picture"
-        width={150}
-        height={150}
-      />
       <SplashText 
         className={styles.splashText}
         padding={false}
@@ -20,6 +13,13 @@ const Profile = () => (
       >
         {copy.resume.splashText}
       </SplashText>
+      <Image
+        className={styles.profilePicture}
+        src="/profile_picture.jpeg"
+        alt="profile picture"
+        width={150}
+        height={150}
+      />
     </div>
 );
 

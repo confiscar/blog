@@ -76,7 +76,7 @@
 }
 
 .recipe ol li::before {
-    content: '    'counter(step-counter) '.';
+    content: counter(step-counter) '.';
     white-space: pre;
     color: black;
     font-weight: bold;
@@ -90,7 +90,7 @@
 .recipe li {
     font-size: var(--content-font-size);
     padding-bottom: var(--list-height);
-    line-height: var(--list-height);
+    line-height: var(--line-height);
 }
 
 .recipe img {

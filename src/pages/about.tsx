@@ -11,7 +11,7 @@ const About: NextPage = () => {
   const getProjectsList = () => (
     [
       {
-        title: 'Just this blog for now :^)',
+        title: 'Blog',
         link: 'https://fcaeiro.com'  
       },
     ]
