@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import SplashText from '../../molecules/SplashText';
+import BlobIcon from '../../../lib/icons/BlobIcon';
 import cx from '../../../lib/classNames';
 import copy from '../../../copy/copy.json';
 import styles from './Profile.module.css';
@@ -13,13 +14,16 @@ const Profile = () => (
       >
         {copy.resume.splashText}
       </SplashText>
-      <Image
-        className={styles.profilePicture}
-        src="/profile_picture.jpeg"
-        alt="profile picture"
-        width={150}
-        height={150}
-      />
+      <div className={styles.profilePictureContainer}>
+        <BlobIcon className={styles.blob}/>
+        <Image
+          className={styles.profilePicture}
+          src="/profile_picture.jpeg"
+          alt="profile picture"
+          width={150}
+          height={150}
+        />
+      </div>
     </div>
 );
 
