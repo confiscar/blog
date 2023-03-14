@@ -26,6 +26,6 @@ const BulletPointList = ({ title, list }: BulletPointListProps) => {
             </div>
         </>
     );
-}
+};
 
 export default BulletPointList;
