@@ -1,0 +1,25 @@
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    max-width: 40vw;
+}
+
+.skillElement {
+    display: inline-block;
+    background-color: #ffcdb6;
+    border-radius: 2rem;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media (max-width: 40rem) {
+    .skillContainer {
+        max-width: 70vw;
+    }
+}

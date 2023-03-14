@@ -22,22 +22,39 @@
         "pageTitle": "fran's resume",
         "splashText": "Hi, I'm Fran 👋. I'm a software engineer interested in both front and back end development.\nI'm passionate about building scalable and maintainable software.",
         "contactHeading": "Contact Me",
+        "techSkillsHeading": "Skills",
+        "techSkills": ["JS", "Node.js", "Express.js", "React", "GraphQL", "Cypress", "Java", "Jersey", "REST", "Swift", "Objective-C", "SwiftUI", "UIKit"],
         "experienceHeading": "Experience",
         "experience": [
             {
-                "jobTitle": "Capital One, iOS Engineer I",
-                "date": "November 2022 - Present",
-                "descriptions": "Working on Capital One iOS app. Swift UI & UI Kit.\nAlso worked with back-end orchestration level changes. JS and Node.js based stack.\nLots of breaking down business intent into high-level mobile changes."
+                "title": "Capital One, iOS Engineer I",
+                "subtitle": "November 2022 - Present",
+                "sections": "Working on Capital One iOS app. Swift UI & UI Kit.\nAlso worked with back-end orchestration level changes. JS and Node.js based stack.\nLots of breaking down business intent into high-level mobile changes."
             },
             {
-                "jobTitle": "Capital One, Web Engineer I",
-                "date": "September 2021 - November 2022",
-                "descriptions": "Working on internal web app tool, powered with Typescript, React, Express, GraphQL and Node.js.\nHeavily involved with championing our Cypress testing.\nAlso championed and became a point of contact for some legacy code refactoring/reusing involving Finesse.\nGood experience here with dealing with AWS and their Lambda serverless computing."
+                "title": "Capital One, Web Engineer I",
+                "subtitle": "September 2021 - November 2022",
+                "sections": "Working on internal web app tool, powered with Typescript, React, Express, GraphQL and Node.js.\nHeavily involved with championing our Cypress testing.\nAlso championed and became a point of contact for some legacy code refactoring/reusing involving Finesse.\nGood experience here with dealing with AWS and their Lambda serverless computing."
             },
             {
-                "jobTitle": "Capital One, Backend Engineer I",
-                "date": "September 2021 - November 2022",
-                "descriptions": "Was an internship experience.\nDesigned Java-based REST API service.\nGot the service up and running from scratch, using AWS Lambda and Jersey.\nExperience with Cucumber testing."
+                "title": "Capital One, Backend Engineer I",
+                "subtitle": "September 2021 - November 2022",
+                "sections": "Was an internship experience.\nDesigned Java-based REST API service.\nGot the service up and running from scratch, using AWS Lambda and Jersey.\nExperience with Cucumber testing."
+            }
+        ],
+        "educationHeading": "Education",
+        "education": [
+            {
+                "title": "University of Nottingham, MSc Computer Science with AI (1st)",
+                "subtitle": "September 2017 - June 2021",
+                "sections": "Focus on Machine Learning and Big Data.\nExperience with web technologies and software quality theory.\n Thesis based on multi-agent simulation for epidemiology."
+            }
+        ],
+        "certificationsHeading": "Certifications",
+        "certifications": [
+            {
+                "title": "AWS Cloud Practitioner",
+                "subtitle": "February 2022 - February 2025"
             }
         ]
     },

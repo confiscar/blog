@@ -7,7 +7,16 @@
 }
 
 .contactBody {
+    margin: auto;
     text-align: center;
     font-size: 1.1rem;
-    line-height: 1.2
+    line-height: 1.2;
+    max-width: 50vw;
 }
+
+@media (max-width: 40rem) {
+    .contactBody {
+        max-width: 70vw;
+    }
+}
+
