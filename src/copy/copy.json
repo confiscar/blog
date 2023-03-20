@@ -23,23 +23,23 @@
         "splashText": "Hi, I'm Fran 👋. I'm a software engineer interested in both front and back end development.\nI'm passionate about building scalable and maintainable software.",
         "contactHeading": "Contact Me",
         "techSkillsHeading": "Skills",
-        "techSkills": ["JS", "Node.js", "Express.js", "React", "GraphQL", "Cypress", "Java", "Jersey", "REST", "Swift", "Objective-C", "SwiftUI", "UIKit"],
+        "techSkills": ["Typescript", "Node.js", "Express.js", "React", "GraphQL", "Docker", "Cypress", "AWS", "Java", "Jersey", "Cucumber", "Swift", "Objective-C", "SwiftUI", "UIKit", "Agile"],
         "experienceHeading": "Experience",
         "experience": [
             {
                 "title": "Capital One, iOS Engineer I",
                 "subtitle": "November 2022 - Present",
-                "sections": "Working on Capital One iOS app. Swift UI & UI Kit.\nAlso worked with back-end orchestration level changes. JS and Node.js based stack.\nLots of breaking down business intent into high-level mobile changes."
+                "sections": "Working on the Capital One UK iOS app. Swift UI & UI Kit.\nRefined and led technical exploration on features related to the in-app FAQ.\nExperience writing unit, UI and visual regression tests."
             },
             {
                 "title": "Capital One, Web Engineer I",
                 "subtitle": "September 2021 - November 2022",
-                "sections": "Working on internal web app tool, powered with Typescript, React, Express, GraphQL and Node.js.\nHeavily involved with championing our Cypress testing.\nAlso championed and became a point of contact for some legacy code refactoring/reusing involving Finesse.\nGood experience here with dealing with AWS and their Lambda serverless computing."
+                "sections": "Working on internal web app tool, powered with Typescript, React, Express, GraphQL and Node.js.\nChampioned functional testing with Cypress within the team.\nBecame point of information involving integration with Finesse. Championed a Finesse integration Node.js package to be reused within the company.\nExperience with working with AWS and services like their Lambda serverless computing.\nExperience in setting up Docker containers for our testing in our pipeline."
             },
             {
                 "title": "Capital One, Backend Engineer I",
-                "subtitle": "September 2021 - November 2022",
-                "sections": "Was an internship experience.\nDesigned Java-based REST API service.\nGot the service up and running from scratch, using AWS Lambda and Jersey.\nExperience with Cucumber testing."
+                "subtitle": "June 2020 - September 2020",
+                "sections": "Internship experience.\nDesigned Java-based REST API service that called an external service.\nService developed from start to end, using AWS Lambda and Jersey.\nExperience with Cucumber testing."
             }
         ],
         "educationHeading": "Education",
@@ -59,7 +59,7 @@
         ]
     },
     "404": {
-        "warning": "Oops... seems to be a bad link."
+        "warning": "Oops... there seems to be nothing here."
     },
     "footer": {
         "github": "Github",
