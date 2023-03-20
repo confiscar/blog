@@ -16,7 +16,7 @@ It has its own [React/Svelte component](https://github.com/giscus/giscus-compone
 
 The component in my repository looks something like this:
 
-```jsx
+```html
 const Comments = () => (
     <div className={styles.comments}>
         <Giscus
